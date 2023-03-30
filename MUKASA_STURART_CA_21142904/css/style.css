@@ -1,0 +1,59 @@
+/*
+*remove margin and padding for all pages
+* include border and padding in height and width
+*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* CSS for index.html */
+
+/* insert the wowburger.jpg as the background image */
+.main {
+    background-image: url("../img/wowburger.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+/* put order.jpg on the wowburger.jpg and attach one shadow to the order.jpg */
+.order {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 1.0;
+    box-shadow: 0 0 20px red;
+}
+
+/* when the cursor hovers over order.jpg, this picture will be 50% transparent */
+.order:hover {
+    opacity: 50%;
+}
+
+/* center all items in the container */
+.container{
+    text-align: center;
+}
+
+/* List item should be inline*/
+li {
+    display: inline;
+  }
+
+  /* Float order now to the right*/
+ .order-now{
+    float: right;
+    color:azure;
+    font-family:'Times New Roman', Times, serif;
+    padding-top: 20px;
+    padding-right: 20px;
+    font-weight: bolder;
+ }
+
+
+ 
+

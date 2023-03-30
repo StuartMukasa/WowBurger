@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Wow Burger</title>
+    <!--to make the webpage responsive-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS file was imported -->
+    <link rel="stylesheet" href="css/Style2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Climate+Crisis&display=swap" rel="stylesheet">
+    <script src="js/jquerry.js"></script>
+    <script src="js/custom.js"></script>
+</head>
+<body class="main">
+<div class="nav">
+    <div class="head-wrapper">
+        <img src="img/logo.svg">
+    <h1>Order for a Burger Now!.</h1>
+</div>
+        <hr>
+        <!--Message for discount -->
+        <marquee behavior="scroll" direction="right">Use  code "extracheese" for a discount!!!!</marquee>
+    <hr>
+    <div class="main-content">
+    <form>
+        <!--Table to neatly organise the order form-->
+        <table id="table1">
+            <tr>
+                <label for="name"></label>
+                <td> <label for="name">UserName:</label> </td> <td> <input type="text" id="user-name" placeholder="Specify User Name" size="35" required/> </td>
+            </tr>
+            <tr>
+                <td> <label for="name">Password:</label> </td> <td> <input type="password" id="password" placeholder="Specify Password" size="35" required/> </td>
+            </tr>
+            <tr>
+                <td> <label for="name">Number of Burgers:</label> </td> <td> <input type="number" id="num-burgers" placeholder="Specify number of Burgers" size="35" required/> </td>
+            </tr>
+            <tr>
+                <td> <label for="name">Discount Code:</label> </td> <td> <input type="text" id="discount-code" placeholder=" Specify discount code" size="35"/> </td>
+            </tr>
+            <tr>
+                <td><label for="size">Burger Size:</label></td> 
+                <td> 
+                     <!--Drop down for picking burger size-->
+                <select name="burger-size" id="burger-size" onchange="burgerSize();"> </br />
+                <option value="large">--Select burger size--</option><br>
+                <option value="large">6oz Large(7euro)</option><br>
+                <option value="extra">10oz Extra-Large(9 Euro)</option> <br>
+                <option value="super">16oz Supersize(17.50 Euro)</option> <br>
+            </td>
+            </tr> 
+        </table>
+        <hr>
+       
+        <div class="btn-wrapper">
+            <!--Submit button-->
+            <button  type="submit" onclick="validateInput();">Submit</button>
+            <!--Button to rest the form -->
+            <button class ="save-btn" type="reset">Reset</button>
+        </div>
+        <br>
+        </form>	
+    </div>
+</body>
+</html>

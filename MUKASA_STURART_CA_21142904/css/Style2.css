@@ -1,0 +1,159 @@
+  /* Set default font for the page*/
+  body{
+    font-family: 'Genos', sans-serif;
+  }
+  /* Set border for the main form*/
+  .main-order{
+    border: 1px solid;
+    color: #161616;
+    border-radius: 1px;
+    margin-top: 30px;
+    padding: 2px;
+  }
+ 
+  .main-order{
+    text-align: center;
+  }
+  /*set widith and display for the main form*/
+  .order-main{
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid;
+  }
+
+  /* content set in t*/
+  .main-content{
+    width: 50%;
+    height: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid;
+    margin-top: 5px;
+    background-color:rgb(247, 244, 244);
+    border-radius: 25px;
+    padding: 20px;
+    padding-top: 40px;
+    font-size: medium;
+    font-weight:lighter;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Genos', sans-serif;
+  }
+
+  /* main heading aligned in center widit google fonts*/
+  h1{
+    text-align: center;
+    font-family:serif;
+    font-family: 'Genos', sans-serif;
+
+  }
+
+  /* main heading */
+  input{
+    box-sizing: border-box;
+  }
+
+   /* Formating for  a marquee message passing across the page */
+  marquee{
+    font-weight: bold;
+    color: brown;
+  }
+
+   /* Setting widith of the dropdown list */
+  #piza-size{
+    width: fit-content;
+  }
+
+   /* Set round edges for the button */
+  button {
+    color: #0f1419;
+    border: 1px solid #cfd9de;
+    border-radius: 10px;
+    background: white;
+    padding-top: 6px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-left: 2px;
+    margin-right: 2px;
+    
+}
+
+ /* Round edges for the user name control */
+
+#user-name{
+   height: 24px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    width: 300px;
+}
+
+ /* Round edges for password control */
+
+#password{
+  height: 24px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    width: 300px;
+}
+ /* Round edges for burger number control */
+#num-burgers{
+  height: 24px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    width: 300px;
+}
+
+ /* Round edges for discount code control */
+#discount-code{
+    height: 24px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    width: 300px;
+}
+
+ /* Round edges for burger size control */
+#burger-size{
+  height: 24px;
+  width: 300px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border: 1px solid #dfe1e5;
+  border-radius: 24px;
+}
+
+ /* Align buttons in the center */
+.btn-wrapper{
+  display: flex;
+  justify-content: center;
+}
+
+
+/* Wrapper for the heading */
+.head-wrapper{
+  display: flex;
+  justify-content: center;
+  margin-left: 5px;
+  margin-right: px;
+  font-family: 'Genos', sans-serif;
+}
